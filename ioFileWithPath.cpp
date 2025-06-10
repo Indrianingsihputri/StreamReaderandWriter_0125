@@ -13,4 +13,10 @@ int main(){
     // menunjuk ke sebuah nama file
     outfile.open(NamaFile + ".txt", ios::out);
     cout << ">= menulis file, \'q\' untuk keluar" << endl;
+
+    while (true) {
+        cout << "- ";
+        // mendapatkan setiap karakter dalam satu baris
+        getline(cin, baris);
+    }
 }
