@@ -11,5 +11,8 @@ int main()
     try
     {
         array<int, 3> arr = {10, 20, 30,};
+        //pesan array dengan 3 elemen
+        cout << data.at(5) << endl;
+        //memanggil array elemen ke-5 
     }
 }
