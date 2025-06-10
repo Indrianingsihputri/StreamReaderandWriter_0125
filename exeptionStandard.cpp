@@ -8,4 +8,8 @@ using namespace std;
 int main()
 {
     cout << "Awal program" << endl;
+    try
+    {
+        array<int, 3> arr = {10, 20, 30,};
+    }
 }

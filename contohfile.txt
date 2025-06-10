@@ -1,0 +1,1 @@
+cd "d:\PEMDAS\StreamReaderandWriter_0125\" ; if ($?) { g++ ioFile.cpp -o ioFile } ; if ($?) { .\ioFile }
