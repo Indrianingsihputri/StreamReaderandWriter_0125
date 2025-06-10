@@ -10,15 +10,4 @@ int main()
         
     }
 
-    catch (int a) {
-        // blok ini akan dieksekusi
-        cout << "Pengecualian akan dieksekusi" << e << endl;
-    }
-    catch (...) {
-        // blok ini akan menangkap semua pengecualian yang tidak tertangkap sebelumnya
-        cout << "defaul Pengecualian dieksekusi" << endl;
-    }
-
-    return 0;
-
 }
