@@ -9,7 +9,17 @@ int main() {
     ofstream outfile;
     //menunjuk ke sebuah nama file
     outfile.open("contohfile.txt");
-    cout << ">= menulis file, \'q\' untuk keluar"
+    cout << ">= menulis file, \'q\' untuk keluar";
     //unlimited loop untuk menulis
+
+    while (true) {
+        cout << "- ";
+        //mendapatkan setiap karakter dalam satu baris
+        getline(cin, baris);
+        //loop akan berhenti jika anda memasukkan karakter q
+        if (baris == "q") break;
+        //menulis dan memasukkan nilai dari 'baris' kedalam file
+        outfile << baris << endl;
+    }
 
 }
