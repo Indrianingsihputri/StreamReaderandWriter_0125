@@ -21,4 +21,7 @@ int main()
         cout <<e.what() << endl;
         /*akan dieksekusi karena array data hanya memiliki 3 elemen*/
     }
+    cout << "baris pemrogram yang berakhir" << endl;
+    /*penanda 2: bahan program berjalan tanpa berhenti meskipun terjadi kesalahan*/
+    return 0;
 }
